@@ -1,6 +1,17 @@
+---
+layout: null
+---
+
 {
+  "podcast": {
+    "title": "{{ site.title }}",
+    "feed": "https://itdepends.withgregandmark.co.uk/podcast/index.xml"
+  },
   "episode": {
-    "media": {"m4a": "https://itdepends.withgregandmark.co.uk/episodes/itdepends-s01e01.m4a"},
+    "media": {
+      "m4a": "https://itdepends.withgregandmark.co.uk/episodes/itdepends-s01e01.m4a"
+    },
+    "coverUrl": "https://itdepends.withgregandmark.co.uk/assets/itdepends.png",
     "title": "When is good enough good enough?"
   }
 }
