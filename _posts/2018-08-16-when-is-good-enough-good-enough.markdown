@@ -1,19 +1,23 @@
 ---
 layout: post
-title:  "When is good enough good enough?"
+title:  "Ep 1: When is good enough good enough?"
 date:   2018-08-16 18:30:00 +0100
 categories: podcast
 tags:
 - Software
 - Product
-permalink: /s01e01/
+permalink: /e01/
 image: /assets/itdepends.png
-podcast_link: https://itdepends.withgregandmark.co.uk/episodes/itdepends-s01e01.m4a
+podcast_link: https://itdepends.withgregandmark.co.uk/episodes/itdepends-e01.m4a
 podcast_file_size: 22 MB
 podcast_duration: "35:27"
 podcast_length: 22675546
 
 ---
-In this episode Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?
+In their first episode Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?
 
-<script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="https://itdepends.withgregandmark.co.uk/ppp/s01e01.json"></script>
+<br>
+<hr>
+<br>
+
+<script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="https://itdepends.withgregandmark.co.uk/ppp/e01.json"></script>
