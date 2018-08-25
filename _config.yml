@@ -38,3 +38,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# iTunes Podcast Feed settings
+
+podcast_url: https://itdepends.withgregandmark.co.uk
+podcast_album_art: /assets/itdepends.png
+podcast_title: It Depends! ... with Greg & Mark
+podcast_owner: Greg & Mark
+podcast_email: talk@withgregandmark.co.uk
+podcast_category: Technology
+podcast_subcategory_one: Software How-To
+podcast_subcategory_two: Product Development
+podcast_explicit: "yes"
+podcast_author: Greg & Mark
+podcast_description: Musings and banter on software and product development.
+podcast_summary: Musings and banter on software and product development.
+podcast_subtitle: Musings and banter on software and product development.
