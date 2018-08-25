@@ -14,4 +14,4 @@ podcast_duration: "35:27"
 podcast_length: 22675546
 
 ---
-In this episode Greg & Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?
+In this episode Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?
