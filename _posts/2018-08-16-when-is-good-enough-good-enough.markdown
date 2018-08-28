@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ep 1: When is good enough good enough?"
+title:  "Ep 1: When is good enough, good enough?"
 date:   2018-08-16 18:30:00 +0100
 categories: podcast
 tags:
@@ -15,7 +15,7 @@ podcast_episode: 1
 podcast_length: 23343255
 
 ---
-In their first episode Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?
+In their first episode, Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not entirely finished, but might be considered good enough to serve its purpose.  Should you ship or should you carry on until it is complete?
 
 <br>
 <hr>
