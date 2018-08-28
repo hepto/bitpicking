@@ -9,9 +9,10 @@ tags:
 permalink: /e01/
 image: /assets/ydiw.png
 podcast_link: https://ydiw.withgregandmark.co.uk/episodes/ydiw-e01.m4a
-podcast_file_size: 22 MB
-podcast_duration: "35:27"
-podcast_length: 22675546
+podcast_file_size: 23.3 MB
+podcast_duration: "35:34"
+podcast_episode: 1
+podcast_length: 23343255
 
 ---
 In their first episode Greg and Mark discuss the impact of 'good enough' - when the thing you're doing is not quite done but is good enough.  Should you ship or do you carry on until it is complete?

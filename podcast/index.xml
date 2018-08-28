@@ -62,13 +62,14 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]>
     </content:encoded>
 
-    <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
+    <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/x-m4a" />
     <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
     <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
     <itunes:author>{{ site.podcast_author }}</itunes:author>
     <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
     <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
     <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
+    <itunes:episode>{{ ep.podcast_episode }}</itunes:episode>
   </item>
 {% endfor %}
 </channel>
