@@ -13,11 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: It Depends! ... with Greg & Mark
+title: You're Doing It Wrong!
+subtitle: ... with Greg & Mark
 # email: your-email@example.com
 description: Musings and banter on software and product development.
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://itdepends.withgregandmark.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ydiw.withgregandmark.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -42,9 +43,9 @@ plugins:
 
 # iTunes Podcast Feed settings
 
-podcast_url: https://itdepends.withgregandmark.co.uk
-podcast_album_art: /assets/itdepends.png
-podcast_title: It Depends! ... with Greg & Mark
+podcast_url: https://ydiw.withgregandmark.co.uk
+podcast_album_art: /assets/ydiw.png
+podcast_title: You're Doing It Wrong! ... with Greg & Mark
 podcast_owner: Greg & Mark
 podcast_email: talk@withgregandmark.co.uk
 podcast_category: Technology

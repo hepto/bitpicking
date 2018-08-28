@@ -7,8 +7,8 @@ tags:
 - Software
 - Product
 permalink: /e01/
-image: /assets/itdepends.png
-podcast_link: https://itdepends.withgregandmark.co.uk/episodes/itdepends-e01.m4a
+image: /assets/ydiw.png
+podcast_link: https://ydiw.withgregandmark.co.uk/episodes/ydiw-e01.m4a
 podcast_file_size: 22 MB
 podcast_duration: "35:27"
 podcast_length: 22675546
@@ -20,4 +20,4 @@ In their first episode Greg and Mark discuss the impact of 'good enough' - when 
 <hr>
 <br>
 
-<script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="https://itdepends.withgregandmark.co.uk/ppp/e01.json"></script>
+<script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="https://ydiw.withgregandmark.co.uk/ppp/e01.json"></script>
