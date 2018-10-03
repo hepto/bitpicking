@@ -30,7 +30,27 @@ redirect_to:
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+    <h4>Subscribe:</h4>
+    <div class="tooltip">
+      <a href="https://anchor.fm/s/69da638/podcast/rss"><img class="pod-app-icon" src="/assets/images/podcast-app-logos/rss.png" alt="RSS"></a>
+      <span class="tooltip-text">RSS</span>
+    </div>
+    <div class="tooltip">
+      <a href="https://geo.itunes.apple.com/gb/podcast/feed/id{{ site.podcast_id }}"><img class="pod-app-icon" src="/assets/images/podcast-app-logos/podcasts.png" alt="Apple Podcasts"></a>
+      <span class="tooltip-text">Apple Podcasts</span>
+    </div>
+    <div class="tooltip">
+      <a href="http://pca.st/itunes/{{ site.podcast_id }}"><img class="pod-app-icon" src="/assets/images/podcast-app-logos/pocketcasts.png" alt="Pocket Casts"></a>
+      <span class="tooltip-text">Pocket Casts</span>
+    </div>
+    <div class="tooltip">
+      <a href="https://overcast.fm/itunes{{ site.podcast_id }}"><img class="pod-app-icon" src="/assets/images/podcast-app-logos/overcast.png" alt="Overcast"></a>
+      <span class="tooltip-text">Overcast</span>
+    </div>
+
+
   {%- endif -%}
 
 </div>
