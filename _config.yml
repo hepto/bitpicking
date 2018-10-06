@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: You're Doing It Wrong!
+title: Bitpicking
 subtitle: ... with Greg & Mark
 # email: your-email@example.com
 description: Musings and banter on software and product development.
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ydiw.withgregandmark.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bitpicking.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -45,16 +45,4 @@ plugins:
 # iTunes Podcast Feed settings
 
 podcast_id: 1434442483
-podcast_url: https://ydiw.withgregandmark.co.uk
-podcast_album_art: /assets/ydiw.png
-podcast_title: You're Doing It Wrong! ... with Greg & Mark
-podcast_owner: Greg & Mark
-podcast_email: talk@withgregandmark.co.uk
-podcast_category: Technology
-podcast_subcategory_one: Software How-To
-podcast_subcategory_two: Product Development
-podcast_explicit: "yes"
-podcast_author: Greg & Mark
-podcast_description: Musings and banter on software and product development.
-podcast_summary: Musings and banter on software and product development.
-podcast_subtitle: Musings and banter on software and product development.
+
