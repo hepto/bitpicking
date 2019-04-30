@@ -23,14 +23,11 @@ url: "https://bitpicking.io" # the base hostname & protocol for your site, e.g. 
 # github_username:  jekyll
 
 # Build settings
-source: source
-destination: compiled
+source: docs
+destination: site
 markdown: kramdown
 exclude:
   - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - vendor/
 
 
 # iTunes Podcast Feed settings
