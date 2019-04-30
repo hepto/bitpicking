@@ -23,23 +23,14 @@ url: "https://bitpicking.io" # the base hostname & protocol for your site, e.g. 
 # github_username:  jekyll
 
 # Build settings
+source: source
+destination: compiled
 markdown: kramdown
-# theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
 
 
 # iTunes Podcast Feed settings
