@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,13 +17,25 @@
 	<h1>Bitpicking</h1>
 	<h2>... with Greg &amp; Mark</h2>
 	<h3>Musings and banter on software and product development.</h3>
+	<hr>
 </header>
 
 <main>
-	<h4>Latest episode:</h4>
-	<iframe src="https://anchor.fm/bitpicking/embed/episodes/What-the-UX-with-Laura-Yarrow-e3o2ft" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-	<h5>Subscribe:</h5>
+	<h3>Subscribe:</h3>
 	<p><a href="https://anchor.fm/bitpicking">https://anchor.fm/bitpicking</a></p>
+	<hr>
+	<h3>Latest episode:</h3>
+	<iframe src="https://anchor.fm/bitpicking/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+	<hr>
+	<h3>Previous episodes:</h3>
+{% for episode in site.data.episodes %}
+	<div>
+		<h4><a href="https://anchor.fm/bitpicking/episodes/{{ episode.slug }}">Episode {{ episode.number }}</a></h4>
+		<h5>{{ episode.title }}</h5>
+		<iframe src="https://anchor.fm/bitpicking/embed/episodes/{{ episode.slug }}" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+	</div>
+{% endfor %}
+	
 </main>
 
 <footer>
