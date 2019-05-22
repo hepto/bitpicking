@@ -24,22 +24,18 @@
 	<h3>Subscribe:</h3>
 	<p><a href="https://anchor.fm/bitpicking">https://anchor.fm/bitpicking</a></p>
 	<hr>
-	<h3>Latest episode:</h3>
-	<iframe src="https://anchor.fm/bitpicking/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-	<hr>
-	<h3>Previous episodes:</h3>
-{% for episode in site.data.episodes %}
-	<div>
-		<h4><a href="https://anchor.fm/bitpicking/episodes/{{ episode.slug }}">Episode {{ episode.number }}</a></h4>
-		<h5>{{ episode.title }}</h5>
-		<iframe src="https://anchor.fm/bitpicking/embed/episodes/{{ episode.slug }}" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-	</div>
-{% endfor %}
+	<ul id="episodes">
+		
+	</ul>
 	
 </main>
 
 <footer>
 </footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
 
 </body>
 
