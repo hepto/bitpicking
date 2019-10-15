@@ -14,11 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bitpicking
-subtitle: ... with Greg & Mark
+subtitle: ... with Greg & Mark & Laura
 # email: your-email@example.com
 description: Musings and banter on software and product development.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bitpicking.io" # the base hostname & protocol for your site, e.g. http://example.com
+rssurl: "https://anchor.fm/bitpicking"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
